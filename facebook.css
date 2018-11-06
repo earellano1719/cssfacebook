@@ -14,7 +14,6 @@ table{
   display: inline-block;
 }
 .logo{
-  top: 0px;
   height: 50px;
   width: auto;
   border: 0px;
@@ -30,9 +29,9 @@ table{
 }
 
 .loginform{
-  top: 0%;
+  top: 10%;
   right: 10%;
-  position: fixed;
+  position: absolute;
   overflow-x: auto;
   max-width: 100%;
   grid-column: 2;
@@ -65,11 +64,40 @@ table{
   padding-right: 10%;
 }
 
+/* ///////side1//////// */
+
 .side1{
   grid-column: 1;
   grid-row: 1;
-  min-width: 400px;
+  min-width: 500px;
 }
+
+#side1bold{
+  font-weight: 900;
+  font-style: italic;
+}
+
+.updates{
+  display: flex;
+  justify-content: center;
+  left: 0px;
+}
+
+.share{
+  display: flex;
+  justify-content: center;
+  left: 0px;
+}
+
+.find{
+  display: flex;
+  justify-content: center;
+  left: 0px;
+}
+
+
+
+/* ///////side2//////// */
 
 .side2{
   grid-column: 2;
