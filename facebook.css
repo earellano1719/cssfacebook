@@ -78,19 +78,19 @@ table{
 }
 
 .updates{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   left: 0px;
 }
 
 .share{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   left: 0px;
 }
 
 .find{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   left: 0px;
 }
@@ -102,4 +102,52 @@ table{
 .side2{
   grid-column: 2;
   grid-row: 1;
+  width: 400px;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.name{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#name{
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rest{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+/* ///////inside rest////// */
+.email {
+  height: 10px;
+}
+#email{
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.pass{
+  height: 10px;
+}
+#password{
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
