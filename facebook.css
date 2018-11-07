@@ -195,7 +195,16 @@ table{
 }
 
 .selectors{
+  display: inline-block;
+}
+select{
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+}
 
+.bdayhelp{
+  font-size: 13px;
 }
 
 #text{
